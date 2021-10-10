@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(), WeatherListAdapter.Callback {
                 if(dataBind.etCity.text.trim().isNotEmpty()) {
                     viewModel.getWeatherByCity((view as EditText).text.toString())
                         .observe(this, Observer { newScore ->
-                            bindView(newScore!!)
+                            bindView(newScore)
                         })
                 }else{
                     dataBind.etCity.error = resources.getString(R.string.enter_your_city_name)
