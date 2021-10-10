@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="search_city">Search City</string>
+    <string name="search_for_a_city">Search for city</string>
+    <string name="today">Today</string>
+    <string name="enter_your_city_name">Enter your city name</string>
+    <string name="msg_welcome">"Search Weather "</string>
+    <string name="msg_city_not_found">City Not Found</string>
+</resources>
